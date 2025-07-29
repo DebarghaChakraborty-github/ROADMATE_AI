@@ -1,0 +1,40 @@
+### 🟢 CREATE RIDE
+POST http://localhost:5000/api/rides
+Content-Type: application/json
+
+{
+  "riderName": "Ajay Singh",
+  "location": "Varanasi",
+  "distance": 256,
+  "purpose": "RIDE AGAINST RAPE",
+  "rideDate": "2025-07-18"
+}
+
+###
+
+### 🔵 GET ALL RIDES
+GET http://localhost:5000/api/rides
+
+###
+
+### 🟡 GET SINGLE RIDE (replace with actual ID)
+GET http://localhost:5000/api/rides/64b7b10a3240e91511111111
+
+###
+
+### 🟠 UPDATE RIDE (replace ID)
+PUT http://localhost:5000/api/rides/64b7b10a3240e91511111111
+Content-Type: application/json
+
+{
+  "riderName": "Ajay Updated",
+  "location": "Allahabad",
+  "distance": 300,
+  "purpose": "RIDE AGAINST RAPE",
+  "rideDate": "2025-07-19"
+}
+
+###
+
+### 🔴 DELETE RIDE (replace ID)
+DELETE http://localhost:5000/api/rides/64b7b10a3240e91511111111
