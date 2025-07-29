@@ -46,11 +46,6 @@ Roadmate_AI/
 - Real-time route optimization
 - Safety & service mapping for Indian roads
 
-🙌 Built By
-Debargha Chakraborty
-Rider | Developer | Founder of Knights M.C. India Chapter  
-📧 [debarghachakrabortyofficial@gmail.com](mailto:debarghachakrabortyofficial@gmail.com)
-
 Status
 > 🚧 Currently in active development.  
 Contributions, testers, and collaborators welcome!
